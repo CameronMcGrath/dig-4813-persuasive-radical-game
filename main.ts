@@ -252,21 +252,21 @@ function animateIdle () {
 function setLevelTileMap (level: number) {
     clearGame()
     if (level == 0) {
-        tiles.setTilemap(tilemap`Tutorial Level`)
+        tiles.setTilemap(tilemap`Living Room 1`)
     } else if (level == 1) {
-        tiles.setTilemap(tilemap`The Steps`)
+        tiles.setTilemap(tilemap`Bedroom 1`)
     } else if (level == 2) {
-        tiles.setTilemap(tilemap`Shocking Discovery`)
+        tiles.setTilemap(tilemap`Laundry Room 1`)
     } else if (level == 3) {
-        tiles.setTilemap(tilemap`Hardcore Parkour`)
+        tiles.setTilemap(tilemap`Kitchen 1`)
     } else if (level == 4) {
-        tiles.setTilemap(tilemap`Dinner For 1`)
+        tiles.setTilemap(tilemap`Kitchen 2`)
     } else if (level == 5) {
-        tiles.setTilemap(tilemap`Feeling Blue with Kirby`)
+        tiles.setTilemap(tilemap`Living Room 2`)
     } else if (level == 6) {
-        tiles.setTilemap(tilemap`Gamers Dont Die`)
+        tiles.setTilemap(tilemap`Laundry Room 2`)
     } else if (level == 7) {
-        tiles.setTilemap(tilemap`We RESPAWN`)
+        tiles.setTilemap(tilemap`Bedroom 2`)
     }
     initializeLevel(level)
 }
