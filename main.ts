@@ -86,14 +86,8 @@ function giveIntroduction () {
     showInstruction("...")
     showInstruction("...")
     showInstruction("...")
-    showInstruction("Do Internal Exploits")
-    showInstruction("\"Sir, finishing this fight.\"")
-    showInstruction("\"It's dangerous to go alone.\"")
-    showInstruction("\"Take this!\"")
-    showInstruction("Try Other")
-    showInstruction("\"Press F to pay respects.\"")
-    showInstruction("\"Press X to doubt.\"")
-    showInstruction("Windows In Navigator?")
+    showInstruction("Death is not the end")
+    showInstruction("Life will go on")
 }
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     attemptJump()
