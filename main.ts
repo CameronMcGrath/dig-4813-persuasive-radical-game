@@ -76,7 +76,7 @@ function giveIntroduction () {
         `)
     showInstruction("One day, smart devices started going rogue")
     showInstruction("And before you knew it")
-    showInstruction("Your Alexias has taken over your appliances!")
+    showInstruction("Your Alexias have taken over your appliances!")
     showInstruction("Now, it's up to you to stop your smart items!")
     showInstruction("Move with the left and right buttons.")
     showInstruction("Jump with the up or A button.")
