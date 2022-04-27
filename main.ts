@@ -621,7 +621,7 @@ function animateJumps () {
     }
 }
 scene.onOverlapTile(SpriteKind.Player, assets.tile`Alexia`, function (sprite, location) {
-    game.over(false, effects.smiles)
+    game.over(false, effects.dissolve)
 })
 function animateCrouch () {
     mainCrouchLeft = animation.createAnimation(ActionKind.CrouchLeft, 100)
@@ -750,7 +750,7 @@ info.onLifeZero(function () {
     info.setLife(3)
     currentLevel += 1
     if (hasNextLevel()) {
-        game.splash("You died!")
+        game.splash("You died! Press Z to continue")
         setLevelTileMap(currentLevel)
     } else {
         game.over(true, effects.confetti)
