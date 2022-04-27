@@ -627,9 +627,6 @@ function setLevelTileMap (level: number) {
         tiles.setTilemap(tilemap`Kitchen 1`)
         scene.setBackgroundImage(assets.image`myImage`)
     } else if (level == 4) {
-        tiles.setTilemap(tilemap`Kitchen 2`)
-        scene.setBackgroundImage(assets.image`myImage`)
-    } else if (level == 5) {
         tiles.setTilemap(tilemap`Living Room 2`)
         scene.setBackgroundImage(img`
             dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
@@ -753,6 +750,9 @@ function setLevelTileMap (level: number) {
             dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
             dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
             `)
+    } else if (level == 5) {
+        tiles.setTilemap(tilemap`Kitchen 2`)
+        scene.setBackgroundImage(assets.image`myImage`)
     } else if (level == 6) {
         tiles.setTilemap(tilemap`Laundry Room 2`)
         scene.setBackgroundImage(img`
