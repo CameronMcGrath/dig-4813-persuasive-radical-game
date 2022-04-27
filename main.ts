@@ -1509,7 +1509,6 @@ function createPlayer (player2: Sprite) {
     info.setScore(0)
 }
 function initializeLevel (level: number) {
-    effects.clouds.startScreenEffect()
     playerStartLocation = tiles.getTilesByType(assets.tile`tile6`)[0]
     tiles.placeOnTile(hero, playerStartLocation)
     tiles.setTileAt(playerStartLocation, assets.tile`tile0`)
